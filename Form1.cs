@@ -27,19 +27,19 @@ namespace praktika
 
         }
 
-        private void button1_Click(object sender, EventArgs e) //Отсутствие обработки ошибок
+        private void button1_Click(object sender, EventArgs e) 
         {
             Form2 registrationForm = new Form2();
             registrationForm.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e) //Отсутствие обработки ошибок
+        private void button2_Click(object sender, EventArgs e) 
         {
             Form4 avtorpatientForm = new Form4();
             avtorpatientForm.ShowDialog();
         }
 
-        private void button3_Click(object sender, EventArgs e) //Отсутствие обработки ошибок
+        private void button3_Click(object sender, EventArgs e) 
         {
             Form5 avtordoctorForm = new Form5();
             avtordoctorForm.ShowDialog();
